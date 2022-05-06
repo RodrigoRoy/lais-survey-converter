@@ -1,0 +1,16 @@
+{
+  "name": "lais-survey-converter",
+  "version": "1.1.0",
+  "description": "Rename and organize files from Limesurvey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.2"
+  }
+}
