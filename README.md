@@ -15,12 +15,12 @@ npm install
 
 ## Agregar archivos
 
-- `results-survey.csv` (incluye columnas ID, Nombre, Carta motivos y CV)
-- `inputDir`
-  - `file1.pdf`
-  - `file2.docx`
-  - `file3.odt`
-  - `...`
+- results-survey.csv (incluye columnas ID, Nombre, Carta motivos y CV)
+- inputDir
+  - file1.pdf
+  - file2.docx
+  - file3.odt
+  - ...
 
 ## Convertir archivos
 
@@ -29,17 +29,17 @@ npm run convert
 ```
 
 El directorio `/outputDir` tendrá los archivos organizados y renombrados de la siguiente manera:
-- `outputDir`
-  - `cartas`
-     - `<id1>_<name1>.pdf`
-     - `<id2>_<name2>.docx`
-     - `<id3>_<name3>.odt`
-     - `...`
-  - `cv`
-     - `<id1>_<name1>.odt`
-     - `<id2>_<name2>.pdf`
-     - `<id2>_<name2>.docx`
-     - `...`
+- outputDir
+  - cartas
+     - \<id1>_\<name1>.pdf
+     - \<id2>_\<name2>.docx
+     - \<id3>_\<name3>.odt
+     - ...
+  - cv
+     - \<id1>_\<name1>.odt
+     - \<id2>_\<name2>.pdf
+     - \<id2>_\<name3>.docx
+     - ...
 
 ## Licencia
 
