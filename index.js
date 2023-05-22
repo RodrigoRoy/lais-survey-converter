@@ -64,7 +64,7 @@ fs.createReadStream(filenameCSV)
       //      - <id1>_<nombre1>.odt
       //      - <id2>_<nombre2>.pdf
       //      - ...
-      fs.copyFileSync(`files/${filesInSystem[0]}`, `${outputDirectory}/${outputSubdirectoryCartas}/${elem[idRespuesta]}_${elem[nombreCompleto]}${cartaExtension}`);
-      fs.copyFileSync(`files/${filesInSystem[1]}`, `${outputDirectory}/${outputSubdirectoryCV}/${elem[idRespuesta]}_${elem[nombreCompleto]}${cvExtension}`);
+      fs.copyFileSync(`${inputDirectory}/${filesInSystem[0]}`, `${outputDirectory}/${outputSubdirectoryCartas}/${elem[idRespuesta]}_${elem[nombreCompleto]}${cartaExtension}`);
+      fs.copyFileSync(`${inputDirectory}/${filesInSystem[1]}`, `${outputDirectory}/${outputSubdirectoryCV}/${elem[idRespuesta]}_${elem[nombreCompleto]}${cvExtension}`);
     });
 });
